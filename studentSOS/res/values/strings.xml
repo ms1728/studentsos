@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">学生SOS</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tab_home">主页</string>
+    <string name="tab_search">查书</string>
+    <string name="tab_me">我</string>
+    <string name="tab_hot">热聊</string>
+    <string name="login_name">请登录</string>
+    <string name="gongneng">功能介绍</string>
+    <string name="huancun">清除缓存</string>
+    <string name="gengxin">版本更新</string>
+    <string name="guanyu">关于软件</string>
+    <string name="fankui">意见反馈</string>
+    <string name="snumber">登录账号</string>
+    <string name="code">账号：</string>
+    <string name="loginpass">登录密码</string>
+    <string name="quhui">取回密码</string>
+    <string name="password">密码：</string>
+    <string name="zhuce">注册</string>
+    <string name="loginBt">登录</string>
+    <string name="login_out">退出登录</string>
+    <string name="personyes">确定</string>
+    <string name="regisyes">注册</string>
+    <string name="email">邮箱：</string>
+    <string name="nicheng">昵称：</string>
+    <string name="searBtn">搜索</string>
+    <string name="classin">加入课内</string>
+    <string name="classout">加入课外</string>
+    <string name="newpass">新密码：</string>
+    <string name="repass">确认新密码：</string>
+    <string name="searTips">请输入...</string>
+    <string name="nichengtips">*请输入2-10个中文或英文字符</string>
+    <string name="feedback_content_hint">请输入您的反馈意见</string>
+    <string name="feedback_btn">提交</string>
+    <string name="register_code_digits">._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ </string>
+    <string name="register_password_digits">._/*-+~!@#$%^*0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ </string>
+    <string name="schoolname">学校：</string>
+
+</resources>

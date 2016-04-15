@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Androidwork/studentSOS/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background_color">#ffdbdada</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ffc3c3c3</color>
+    <color name="white">#ffffffff</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/></declare-styleable>
+    <!-- From: file:/D:/Androidwork/studentSOS/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/Androidwork/studentSOS/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">学生SOS</string>
+    <string name="classin">加入课内</string>
+    <string name="classout">加入课外</string>
+    <string name="code">账号</string>
+    <string name="email">邮箱</string>
+    <string name="fankui">意见反馈</string>
+    <string name="feedback_btn">提交</string>
+    <string name="feedback_content_hint">请输入您的反馈意见</string>
+    <string name="gengxin">版本更新</string>
+    <string name="gongneng">功能介绍</string>
+    <string name="guanyu">关于软件</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="huancun">清除缓存</string>
+    <string name="loginBt">登录</string>
+    <string name="login_name">请登录</string>
+    <string name="login_out">退出登录</string>
+    <string name="loginpass">登录密码</string>
+    <string name="mock_record_first">常见的音乐随机播放算法主要有两种：一是Shuffle算法；二是Random算法</string>
+    <string name="mock_record_second">开源项目几乎都使用版本控制系统来对代码进行维护，著名的版本控制软件有诸如CVS、Rational ClearCase、Microsoft Visual SourceSafe、Git、Subversion、Mercurial等等</string>
+    <string name="newpass">新密码</string>
+    <string name="nicheng">昵称</string>
+    <string name="nichengtips">*请输入2-10个中文或英文字符</string>
+    <string name="password">密码</string>
+    <string name="personyes">确定</string>
+    <string name="quhui">取回密码</string>
+    <string name="register_code_digits">._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ </string>
+    <string name="register_password_digits">._/*-+~!@#$%^*0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ </string>
+    <string name="regisyes">注册</string>
+    <string name="repass">确认新密码</string>
+    <string name="schoolname">学校</string>
+    <string name="searBtn">搜索</string>
+    <string name="searTips">请输入关键字...</string>
+    <string name="snumber">登录账号</string>
+    <string name="tab_home">主页</string>
+    <string name="tab_me">我</string>
+    <string name="tab_search">查书</string>
+    <string name="zhuce">注册</string>
+    <!-- From: file:/D:/Androidwork/studentSOS/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--
+             Note that we use the base animation style here (that is no
+             animations) because we really have no idea how this kind of
+             activity will be used.
+        -->
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:paddingBottom="4dip" >
+
+    <LinearLayout
+        android:id="@+id/wai_lItemImage"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/wai_ItemImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/wai_lItemImage"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/wai_ItemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView01" >
+    </TextView>
+</LinearLayout>
+</RelativeLayout><!-- From: file:/D:/Androidwork/studentSOS/res/layout/kewai_liset.xml -->

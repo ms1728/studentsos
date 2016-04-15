@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header" />
+
+    <RelativeLayout
+        android:id="@+id/relat_school"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF"
+        android:paddingBottom="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:paddingTop="6dp" >
+
+        <TextView
+            android:id="@+id/Spinner_schoo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="20dp"
+            android:text="学校："
+            android:textColor="@color/darker_gray" />
+
+        <TextView
+            android:id="@+id/Spinner_school"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/Spinner_schoo"
+            android:textColor="#999999"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0.3dp"
+        android:background="#FFFFFF"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/jiaowu_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="20dp"
+            android:text="教务学号："
+            android:textColor="@color/darker_gray" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/jiaowu_codeEdt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/jiaowu_code"
+            android:background="@null"
+            android:text="201412240118"
+            android:maxLength="20"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0.3dp"
+        android:background="#FFFFFF"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/jiaowu_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="20dp"
+            android:text="教务密码："
+            android:textColor="@color/darker_gray" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/jiaowu_passEdt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/jiaowu_password"
+            android:background="@null"
+            android:digits="@string/register_password_digits"
+            android:text="A123456"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/loginBtn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp" >
+
+        <Button
+            android:id="@+id/spinner_saveBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="@string/personyes"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

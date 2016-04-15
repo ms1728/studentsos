@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EDEDED"
+    android:orientation="vertical" >
+
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        class="com.studentsos.fragment.HomeFragment" />
+
+    <fragment
+        android:id="@+id/fragment_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        class="com.studentsos.fragment.SearchFragment" />
+
+    <fragment
+        android:id="@+id/fragment_me"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        class="com.studentsos.fragment.MeFragment" />
+
+    <com.studentsos.fragment.FragmentIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_background"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" />
+
+</LinearLayout><!-- From: file:/D:/Androidwork/studentSOS/res/layout/activity_main.xml -->

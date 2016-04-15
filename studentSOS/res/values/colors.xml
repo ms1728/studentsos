@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">#6633B5E5</color>
+     <color name="background_color">#ffdbdada</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray">#ffc3c3c3</color>
+    <color name="black">#ff000000</color>
+    <color name="darker_gray">#666666</color>
+</resources>
